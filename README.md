@@ -1,6 +1,6 @@
 <div class="container">
     <img src="profile.jpg" alt="Profile Picture">
-    <h1>Your Name</h1>
+    <h1>Emma Kasongo</h1>
     <p>Web Developer | Designer | Tech Enthusiast</p>
     <p>Welcome to my personal profile page. Here, you can learn more about me and my work.</p>
     

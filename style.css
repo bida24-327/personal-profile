@@ -1,3 +1,4 @@
+
 /* Lilac Color Theme */
 body {
     background-color: #f5e6fe;
@@ -93,6 +94,29 @@ body {
     to {
         opacity: 1;
     }
+}
+/* Contact Page Styling */
+h2 {
+    color: #4b0082;
+}
+
+/* Input Fields */
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #d8b6ff;
+}
+
+/* Submit Button */
+.btn-lilac {
+    background-color: #d8b6ff;
+    color: #4b0082;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-lilac:hover {
+    background-color: #b685ff;
+    transform: scale(1.05);
 }
 
 

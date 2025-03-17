@@ -154,7 +154,14 @@ ul li {
     border-radius: 5px;
 }
 
-
+/*education*/
+body {
+    background-color: #C8A2C8; /* Lilac color */
+    color: #333; /* Dark gray text for contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 
 

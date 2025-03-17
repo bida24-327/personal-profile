@@ -1,6 +1,10 @@
 
 /* Lilac Color Theme */
 body {
+    background-color: #f5e6fe;
+    color: #4b0082;
+    font-family: 'Poppins', sans-serif;
+body {
     background-color: #16041f ;
     color: #4b0082;
     font-family: 'Poppins', sans-serif;
@@ -130,6 +134,10 @@ h2, h3, h4 {
 }
 
 /* Lilac-Themed Button */
+body {
+    background-color: #f5e6fe;
+    color: #4b0082;
+    font-family: 'Poppins', sans-serif;
 .btn-lilac {
     background-color: #d8b6ff;
     color: #4b0082;
@@ -155,6 +163,10 @@ ul li {
 }
 
 /*education*/
+body {
+    background-color: #f5e6fe;
+    color: #4b0082;
+    font-family: 'Poppins', sans-serif;
 body {
     background-color: #C8A2C8; /* Lilac color */
     color: #333; /* Dark gray text for contrast */

@@ -1,15 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ad00ff
-    margin: 0;
-    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
 }
-.profile-img { 
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+h1, h2 {
+    color: #007bff;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border: none;
+}
+
 
 
 

@@ -77,6 +77,24 @@ body {
 .btn-lilac:active {
     transform: scale(0.9);
 }
+/* Smooth Fade-in Animation */
+body {
+    background-color: #f5e6fe;
+    color: #4b0082;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 
 
 

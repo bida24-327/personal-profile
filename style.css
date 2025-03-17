@@ -1,6 +1,17 @@
 body {
-    background-color:lilac;
+    font-family: Arial, sans-serif;
+    background-color: #ad00ff
+    margin: 0;
+    padding: 0;
 }
+.profile-img { 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
 
 
 

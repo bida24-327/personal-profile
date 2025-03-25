@@ -1,66 +1,42 @@
-
-/* Lilac Color Theme */
+/* Lilac Color Theme - Consolidated and Cleaned */
 body {
     background-color: #f5e6fe;
     color: #4b0082;
     font-family: 'Poppins', sans-serif;
-body {
-    background-color: #16041f ;
-    color: #4b0082;
-    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 /* Navbar Styling */
 .bg-lilac {
     background-color: #8a2be2 !important;
 }
+
 .navbar-brand, .nav-link {
     color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #d8b6ff !important;
+}
+
+/* Main Content */
+.container {
+    flex: 1;
+    padding: 20px;
 }
 
 /* Interactive Button */
-.btn-lilac {
-    background-color: #d8b6ff;
-    color: #4b0082;
-    border: none;
-    padding: 10px 20px;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
-}
-.btn-lilac:hover {
-    background-color: #b685ff;
-    transform: scale(1.1);
-}
-.btn-lilac:active {
-    transform: scale(0.9);
-}
-
-/* Modal Styling */
-.modal-content {
-    background-color: #f9f0ff;
-    color: #4b0082;
-}
-
-/* Animation for Hero Section */
-.animate__animated {
-    animation-duration: 1.5s;
-}
-/* Lilac Color Theme */
-body {
-    background-color: #f5e6fe;
-    color: #4b0082;
-    font-family: 'Poppins', sans-serif;
-}
-
-/* Navbar Styling */
-.bg-lilac {
-    background-color: #8a2be2 !important;
-}
-.navbar-brand, .nav-link {
-    color: #fff !important;
-}
-
-/* Interactive Navigation Buttons */
 .btn-lilac {
     background-color: #d8b6ff;
     color: #4b0082;
@@ -75,79 +51,37 @@ body {
     text-decoration: none;
     display: inline-block;
 }
-.btn-lilac:hover {
-    background-color: #b685ff;
-    transform: scale(1.1);
-}
-.btn-lilac:active {
-    transform: scale(0.9);
-}
-/* Smooth Fade-in Animation */
-body {
-    background-color: #f5e6fe;
-    color: #4b0082;
-    font-family: 'Poppins', sans-serif;
-    opacity: 0;
-    animation: fadeIn 1s ease-in-out forwards;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-/* Contact Page Styling */
-h2 {
-    color: #4b0082;
-}
-
-/* Input Fields */
-.form-control {
-    border-radius: 8px;
-    border: 2px solid #d8b6ff;
-}
-
-/* Submit Button */
-.btn-lilac {
-    background-color: #d8b6ff;
-    color: #4b0082;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
-}
 
 .btn-lilac:hover {
     background-color: #b685ff;
     transform: scale(1.05);
+    color: #fff;
 }
 
-/* About Page Styling */
-h2, h3, h4 {
+.btn-lilac:active {
+    transform: scale(0.95);
+}
+
+/* Modal Styling */
+.modal-content {
+    background-color: #f9f0ff;
     color: #4b0082;
 }
 
-/* Profile Image */
+/* Footer Styling */
+footer {
+    background-color: #16041f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+/* About Page Specific */
 .img-fluid {
     border: 5px solid #d8b6ff;
-}
-
-/* Lilac-Themed Button */
-body {
-    background-color: #f5e6fe;
-    color: #4b0082;
-    font-family: 'Poppins', sans-serif;
-.btn-lilac {
-    background-color: #d8b6ff;
-    color: #4b0082;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-lilac:hover {
-    background-color: #b685ff;
-    transform: scale(1.05);
+    max-width: 100%;
+    height: auto;
 }
 
 /* Interests & Goals */
@@ -155,24 +89,43 @@ ul {
     list-style: none;
     padding-left: 0;
 }
+
 ul li {
     background: #f5e6fe;
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 5px;
+    border-left: 4px solid #8a2be2;
 }
 
-/*education*/
-body {
-    background-color: #f5e6fe;
-    color: #4b0082;
-    font-family: 'Poppins', sans-serif;
-body {
-    background-color: #C8A2C8; /* Lilac color */
-    color: #333; /* Dark gray text for contrast */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/* Contact Form */
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #d8b6ff;
+    margin-bottom: 15px;
+}
+
+/* Skills Page */
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills li {
+    background-color: #e9d5ff;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1 0 200px;
+}
+
+/* Education Page */
+.education-item {
+    background-color: #f0e6ff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #8a2be2;
 }
 
 
